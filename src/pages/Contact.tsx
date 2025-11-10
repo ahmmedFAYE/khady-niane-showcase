@@ -65,9 +65,9 @@ const Contact = () => {
                 <div>
                   <h3 className="text-lg font-bold text-foreground mb-2">Adresse</h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    Rue 123, Quartier Exemple<br />
-                    Dakar, Sénégal<br />
-                    BP 12345
+                    QHGX+WWW, Unnamed Road<br />
+                    Guédiawaye, Marché Jeudi<br />
+                    Dakar, Sénégal
                   </p>
                 </div>
               </div>
@@ -220,19 +220,19 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Map Placeholder */}
+        {/* Map Section */}
         <div className="max-w-6xl mx-auto mt-12">
-          <Card className="glass overflow-hidden h-96">
-            <div className="w-full h-full bg-gradient-soft flex items-center justify-center">
-              <div className="text-center space-y-4">
-                <MapPin className="h-16 w-16 text-secondary mx-auto" />
-                <p className="text-lg font-semibold text-foreground">Notre Emplacement</p>
-                <p className="text-sm text-muted-foreground max-w-md">
-                  Venez nous rendre visite à Dakar, Sénégal. Nous serons ravis de vous accueillir
-                  et de vous faire découvrir notre établissement.
-                </p>
-              </div>
-            </div>
+          <Card className="glass overflow-hidden">
+            <iframe
+              title="Localisation Groupe Scolaire Keur Khady Niane"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d620.5209516411295!2d-17.39769829729552!3d14.782157666263797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec18a8f0d07311b%3A0xb2bd8a28a643dc08!2sQHGX%2BWWW!5e0!3m2!1sfr!2ssn!4v1730396400000!5m2!1sfr!2ssn"
+              width="100%"
+              height="384"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
           </Card>
         </div>
       </div>
